@@ -1,0 +1,38 @@
+@Time complex:=>
+It refers to time taken by machine to run our algorithm (not specific but generic)
+
+there are 3 cases:
+1)Best case (known as omega notaion)
+2)Worst case  (known as big O)
+3)Average case (known as theta)
+
+@we work with worst case scenario that is big o
+
+@Method to find same:
+1)Calculate iterations
+2)Rember to ignore lower order terms
+3)Also ignore constants
+
+
+@order to compare: 1<log(N)<sqrt(N)<N<N*log(N)<N*sqrt(N)<N^2<N^3<2^N<N!<N^N
+
+
+
+@name of graphs:
+we write below name in terms of N:
+
+O(1):constant
+O(N):linear
+O(log(N)):logarithmeic
+O(log(N)*c):poly-arithmetic
+O(N*log(N)):liner-arithmetic
+O(N**2):quadratic
+O(N**C):polynmial
+O(c**N):exponential
+O(N!):factorial
+
+legend-if c is there it might be poly, if N is there it might be linear, log with any other term is called arithmetic
+
+
+
+use : https://wiki.python.org/moin/TimeComplexity

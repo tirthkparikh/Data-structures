@@ -1,0 +1,8 @@
+@space-complex:
+It refers to extra space taken by our algorithm .
+Discard input space and if any space required in output.
+Only considerd space that extra you take solving questiuon.(auxilary space)
+
+array takes o(N)
+matrix takes o(N**N)
+recursion : space complex on based of size3 of tree formed
